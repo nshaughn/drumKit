@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Drumkit2</title>
+</head>
+
+<body>
+
+    <audio id="boom" src="/sounds2/boom.wav"> </audio>
+    <audio id="clap" src="/sounds2/clap.wav"> </audio>
+    <audio id="hihat" src="/sounds2/hihat.wav"> </audio>
+    <audio id="kick" src="/sounds2/kick.wav"> </audio> 
+    <audio id="openhat" src="/sounds2/openhat.wav"> </audio>
+    <audio id="ride" src="/sounds2/ride.wav"> </audio>
+    <audio id="snare" src="/sounds2/snare.wav"> </audio>
+    <audio id="tink" src="/sounds2/tink.wav"> </audio>
+    <audio id="tom" src="/sounds2/tom.wav"> </audio>
+
+    <div class="container"> 
+
+        <div class="text">
+            <button class="button" onclick="boom.play()">Key A<br>=<br>BOOM</button> <!--onclick event occurs when use clicks on the element-->
+        </div>
+       
+        <div class="text">
+            <button class="button" onclick="clap.play()">Key S<br>=<br>CLAP</button>
+        </div>
+    
+        <div class="text">
+            <button class="button" onclick="hihat.play()">Key D<br>=<br>HIHAT</button>
+        </div>
+        
+        <div class="text">
+            <button class="button" onclick="kick.play()">Key F<br>=<br>KICK</button>
+        </div>
+
+        <div class="text">
+            <button class="button" onclick="openhat.play()">Key G<br>=<br>OPENHAT</button>
+        </div>
+
+        <div class="text">
+            <button class="button" onclick="ride.play()">Key H<br>=<br>RIDE</button>
+        </div>
+    
+        <div class="text">
+            <button class="button" onclick="snare.play()">Key J<br>=<br>SNARE</button>
+        </div>
+
+        <div class="text">
+            <button class="button" onclick="tink.play()">Key K<br>=<br>TINK</button>
+        </div>
+    
+        <div class="text">
+            <button class="button" onclick="tom.play()">Key L<br>=<br>TOM</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
